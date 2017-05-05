@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>Radio Montecarlo FM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   <!-- logo más navegacion -->
-    <header>
-      <div class="contenedor">
-        <a href="#"><img src="img/logo-montecarlo.png" alt="Logotipo de Radio Montecarlo"></a>
+  <header>
+        <div class="contenedorH">
+        <a href="#" class="logoM"><img src="img/logo-montecarlo.png" alt="Logotipo de Radio Montecarlo"></a>
         <nav>
           <ul>
             <li><a href="#programacion">Programación</a></li>
@@ -23,138 +23,150 @@
           </ul>
         </nav>
       </div>
-    </header>
+  </header>
+
     <!-- Seccion de lo que está sonando ahora -->
     <section class="herogr">
-      <article>
-        <h2>ahora suena</h2>
-        <h1>el reloj que no tuvo tiempo</h1>
-        <p>con <span>Julio González Cabello</span></p>
-        <p>Luneas a Viernes<br>17.00 a 19.00</p>
-      </article>
-    <!-- sintonizacion -->
-      <div>
-        <h3>Sintonizanos</h3>
-        <ul>
-          <li>100.9</li>
-          <li>102.5 <br><small>cde</small></li>
-        </ul>
+      <div class="contenedorNow">
+        <article>
+          <h2>ahora suena</h2>
+          <h1>el reloj que no tuvo tiempo</h1>
+          <h3><small>con</small> Julio González Cabello</h3>
+          <p>Luneas a Viernes</p>
+          <p class="time">17:00 a 19:00 hs.</p>
+        </article>
       </div>
+      <!-- sintonizacion -->
+        <div class="tonIn">
+          <h3>Sintonizanos</h3>
+          <ul>
+            <li>100.9</li>
+            <li>102.5 <br><small>cde</small></li>
+          </ul>
+        </div>
+
     </section>
     <!-- Seccion de programacion -->
-    <section>
-      <h3>Programacion</h3>
+    <section class="contenedorProg">
+      <h3>Programación</h3>
       <article>
         <div class="fecha">
           <h1>Viernes</h1>
           <hr>
         </div>
+        <!-- programas y horario -->
         <ol>
           <li>
             <p>05.00 - 07.00</p>
             <hr>
-            <div>
+            <div class="programas">
               <h2>Más despiertos que nunca</h2>
-              <p>con <span>Pablo Rodriguez</span></p>
+              <h3><small>con</small> Pablo Rodriguez</h3>
             </div>
           </li>
           <li>
             <p>05.00 - 07.00</p>
             <hr>
-            <div>
+            <div class="programas">
               <h2>Más despiertos que nunca</h2>
-              <p>con <span>Pablo Rodriguez</span></p>
+              <h3><small>con</small> Pablo Rodriguez</h3>
             </div>
           </li>
           <li>
             <p>05.00 - 07.00</p>
             <hr>
-            <div>
+            <div class="programas">
               <h2>Más despiertos que nunca</h2>
-              <p>con <span>Pablo Rodriguez</span></p>
+              <h3><small>con</small> Pablo Rodriguez</h3>
             </div>
           </li>
           <li>
             <p>05.00 - 07.00</p>
             <hr>
-            <div>
+            <div class="programas">
               <h2>Más despiertos que nunca</h2>
-              <p>con <span>Pablo Rodriguez</span></p>
+              <h3><small>con</small> Pablo Rodriguez</h3>
             </div>
           </li>
           <li>
             <p>05.00 - 07.00</p>
             <hr>
-            <div>
+            <div class="programas">
               <h2>Más despiertos que nunca</h2>
-              <p>con <span>Pablo Rodriguez</span></p>
+              <h3><small>con</small> Pablo Rodriguez</h3>
             </div>
           </li>
           <li>
             <p>05.00 - 07.00</p>
             <hr>
-            <div>
+            <div class="programas">
               <h2>Más despiertos que nunca</h2>
-              <p>con <span>Pablo Rodriguez</span></p>
+              <h3><small>con</small> Pablo Rodriguez</h3>
             </div>
           </li>
           <li>
             <p>05.00 - 07.00</p>
             <hr>
-            <div>
+            <div class="programas">
               <h2>Más despiertos que nunca</h2>
-              <p>con <span>Pablo Rodriguez</span></p>
+              <h3><small>con</small> Pablo Rodriguez</h3>
             </div>
           </li>
           <li>
             <p>05.00 - 07.00</p>
             <hr>
-            <div>
+            <div class="programas">
               <h2>Más despiertos que nunca</h2>
-              <p>con <span>Pablo Rodriguez</span></p>
+              <h3><small>con</small> Pablo Rodriguez</h3>
             </div>
           </li>
         </ol>
-        <div class="botonIzq">Izquierdo</div>
-        <div class="botonDer">Derecho</div>
+        <!-- botones izquierdo y derecho -->
+        <a href="#"><div class="botonIzq"></div></a>
+        <a href="#"><div class="botonDer"></div></a>
       </article>
     </section>
     <!-- Seccion Redes Sociales -->
-    <section>
-      <h1>Síguenos en nuestras redes</h1>
-      <hr>
-      <article>
-        <h3>Montecarlo en Facebook</h3>
-        <iframe src="" frameborder="0">Facebook</iframe>
-      </article>
-
-      <article>
-        <h3>Montecarlo en Twitter</h3>
-        <iframe src="" frameborder="0">Twitter</iframe>
-      </article>
-
-      <article>
-        <h3>Tambien en Instagram</h3>
-        <p><a href="instagram"></a> montecarlofm</p>
-        <h3>Sintonizanos en</h3>
-        <ul>
-          <li>100.9</li>
-          <li>102.5 (CDE)</li>
-        </ul>
-        <h3>Direccion</h3>
-        <p>Avda. Dr. José Gaspar Rodríguez de Francia 343</p>
-        <h3>Teléfono</h3>
-        <p>(595 - 21) 445 201 / 446 769</p>
-      </article>
+    <section class="contenedorSr">
+      <div class="contenedorH">
+        <h1>Síguenos en nuestras redes</h1>
+        <hr>
+        <article>
+          <section>
+            <h2>Montecarlo en Facebook</h2>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flanacionpy&tabs=timeline&width=346&height=395&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="346" height="395" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          </section>
+          <section>
+            <h2>Montecarlo en Twitter</h2>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flanacionpy&tabs=timeline&width=346&height=395&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="346" height="395" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">Twitter</iframe>
+          </section>
+          <section class="lastSec">
+            <h2>Tambien en Instagram</h2>
+            <p><a href="instagram"></a> montecarlofm</p>
+            <h2>Sintonizanos en</h2>
+            <ul>
+              <li>100.9</li>
+              <li class="lastLs">102.5 <br>(CDE)</li>
+            </ul>
+            <h3>Dirección</h3>
+            <p class="contactCl">Avda. Dr. José Gaspar <br> Rodríguez de Francia 343</p>
+            <h3>Teléfono</h3>
+            <p class="contactCl">(595 - 21) 445 201 / 446 769</p>
+          </section>
+        </article>
+      </div>
     </section>
     <!-- player fijo a la parte inferior de la pantalla-->
-    <section>
-      <a href="">boton</a>
+    <section class="contenedorPlyr">
+      <a href="#" class="playBtn"></a>
       <h2>¿A dónde vamos?</h2>
-      <p>con <span>Mika Chamorro</span></p>
-      <div>
+      <h3><small>con</small> Mika Chamorro</h3>
+      <div class="logoPlyr">
         <img src="img/logo-montecarlo-wht.png" alt="Logo en blanco de la Radio Montecarlo">
       </div>
     </section>
+
+    <!-- fuente de Google -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
   </body>
 </html>
